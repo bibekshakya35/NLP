@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/compare&amp;search.iml" filepath="$PROJECT_DIR$/.idea/modules/compare&amp;search.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/compare&amp;search_main.iml" filepath="$PROJECT_DIR$/.idea/modules/compare&amp;search_main.iml" group="compare&amp;search" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/compare&amp;search_test.iml" filepath="$PROJECT_DIR$/.idea/modules/compare&amp;search_test.iml" group="compare&amp;search" />
+    </modules>
+  </component>
+</project>
