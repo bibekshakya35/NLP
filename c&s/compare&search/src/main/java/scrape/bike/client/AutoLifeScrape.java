@@ -5,6 +5,7 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import scrape.bike.*;
+import scrape.bike.domain.ShowRoom;
 import scrape.util.JSOUPUtils;
 import scrape.util.JsonUtils;
 

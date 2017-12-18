@@ -1,4 +1,4 @@
-package scrape.bike;
+package scrape.bike.domain;
 
 import java.util.List;
 

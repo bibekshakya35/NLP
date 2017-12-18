@@ -2,16 +2,11 @@ package scrape.bike;
 
 import com.google.gson.reflect.TypeToken;
 import org.apache.commons.io.FileUtils;
-import org.apache.commons.lang3.StringUtils;
-import org.jsoup.Jsoup;
-import org.jsoup.nodes.Document;
-import org.jsoup.nodes.Element;
-import org.jsoup.select.Elements;
+import scrape.bike.domain.ShowRoom;
 import scrape.google.Detail.Detail;
 import scrape.google.GooglePlaceApi;
 import scrape.google.Nearby.NearbySearch;
 import scrape.request.NearByRequest;
-import scrape.util.JSOUPUtils;
 import scrape.util.JsonUtils;
 import scrape.util.ResourceUtils;
 
@@ -19,9 +14,6 @@ import java.io.File;
 import java.io.IOException;
 import java.nio.charset.StandardCharsets;
 import java.util.*;
-import java.util.logging.Logger;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 public class BrandRecognition {
     private static BikeBrand bikeBrand;

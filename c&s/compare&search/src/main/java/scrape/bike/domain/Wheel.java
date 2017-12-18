@@ -1,4 +1,4 @@
-package scrape.bike;
+package scrape.bike.domain;
 
 /**
  * @author bibek on 12/6/17

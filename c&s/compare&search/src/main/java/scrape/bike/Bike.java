@@ -1,5 +1,7 @@
 package scrape.bike;
 
+import scrape.bike.domain.Specification;
+
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

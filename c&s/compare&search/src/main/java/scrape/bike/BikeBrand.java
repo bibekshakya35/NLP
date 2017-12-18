@@ -1,5 +1,8 @@
 package scrape.bike;
 
+import scrape.bike.domain.ShowRoom;
+import scrape.bike.domain.Specification;
+
 import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.List;
@@ -13,6 +16,7 @@ public class BikeBrand {
     private String fullName;
     private Set<ShowRoom> showRooms = new HashSet<>();
     private List<Bike> bikes = new ArrayList<>();
+    private Specification specification;
 
     public String getName() {
         return name;
@@ -79,6 +83,14 @@ public class BikeBrand {
 
     public void setFullName(String fullName) {
         this.fullName = fullName;
+    }
+
+    public Specification getSpecification() {
+        return specification;
+    }
+
+    public void setSpecification(Specification specification) {
+        this.specification = specification;
     }
 
     @Override
