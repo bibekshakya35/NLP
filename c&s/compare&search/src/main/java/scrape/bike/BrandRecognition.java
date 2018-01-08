@@ -7,8 +7,8 @@ import scrape.google.Detail.Detail;
 import scrape.google.GooglePlaceApi;
 import scrape.google.Nearby.NearbySearch;
 import scrape.request.NearByRequest;
-import scrape.util.JsonUtils;
-import scrape.util.ResourceUtils;
+import util.JsonUtils;
+import util.ResourceUtils;
 
 import java.io.File;
 import java.io.IOException;

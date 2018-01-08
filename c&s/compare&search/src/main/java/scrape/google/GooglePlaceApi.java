@@ -7,7 +7,7 @@ import scrape.google.Detail.api.PlaceDetailClient;
 import scrape.google.Nearby.NearbySearch;
 import scrape.google.Nearby.api.NearbyClient;
 import scrape.request.NearByRequest;
-import scrape.util.RetrofitUtils;
+import util.RetrofitUtils;
 
 import java.io.IOException;
 import java.util.HashMap;

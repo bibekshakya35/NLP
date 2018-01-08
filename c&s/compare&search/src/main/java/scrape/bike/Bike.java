@@ -46,6 +46,10 @@ public class Bike {
         return imageUrls;
     }
 
+    public void setImageUrls(List<String> imageUrls) {
+        this.imageUrls = imageUrls;
+    }
+
     public void add(String imageUrl) {
         this.imageUrls.add(imageUrl);
     }

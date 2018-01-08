@@ -31,4 +31,6 @@ repositories {
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter-data-elasticsearch')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
+    // https://mvnrepository.com/artifact/org.openjdk.jmh/jmh-core
+    compile group: 'org.openjdk.jmh', name: 'jmh-core', version: '1.19'
 }

@@ -6,8 +6,8 @@ import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import scrape.bike.*;
 import scrape.bike.domain.ShowRoom;
-import scrape.util.JSOUPUtils;
-import scrape.util.JsonUtils;
+import util.JSOUPUtils;
+import util.JsonUtils;
 
 import java.io.File;
 import java.io.IOException;
@@ -150,7 +150,7 @@ public class AutoLifeScrape implements Scrape {
             }
         });
         try {
-            FileUtils.writeStringToFile(new File("/home/bibek/bs-workspace/bike/autolife.json"), JsonUtils.toJsonList(bikeBrands), StandardCharsets.UTF_8);
+            FileUtils.writeStringToFile(new File("/home/bibek/bs-workspace/bike/preprocess/scrape/autolife.json"), JsonUtils.toJsonList(bikeBrands), StandardCharsets.UTF_8);
         } catch (IOException e) {
             e.printStackTrace();
         }

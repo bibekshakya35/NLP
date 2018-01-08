@@ -17,6 +17,7 @@
     <orderEntry type="library" name="Gradle: org.apache.lucene:lucene-queries:7.1.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.lucene:lucene-benchmark:7.1.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.opennlp:opennlp-tools:1.8.3" level="project" />
+    <orderEntry type="library" name="Gradle: org.apache.opennlp:opennlp-maxent:3.0.3" level="project" />
     <orderEntry type="library" name="Gradle: junit:junit:4.12" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.lucene:lucene-test-framework:7.1.0" level="project" />
     <orderEntry type="library" name="Gradle: org.apache.lucene:lucene-sandbox:7.1.0" level="project" />

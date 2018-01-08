@@ -6,8 +6,8 @@ import org.jsoup.nodes.Document;
 import org.jsoup.nodes.Element;
 import org.jsoup.select.Elements;
 import scrape.bike.repository.BikeBrandRepository;
-import scrape.util.JSOUPUtils;
-import scrape.util.ResourceUtils;
+import util.JSOUPUtils;
+import util.ResourceUtils;
 
 import java.io.*;
 import java.nio.charset.StandardCharsets;

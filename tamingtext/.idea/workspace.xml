@@ -1,7 +1,225 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c0791af5-2eb7-4e7a-a7b7-06efd87fbf22" name="Default" comment="" />
+    <list default="true" id="c0791af5-2eb7-4e7a-a7b7-06efd87fbf22" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/.idea/libraries/Gradle__org_tartarus_snowball_1_0.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/data/DataInput/101666" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/data/DataInput/102591" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/data/DataInput/102616" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/data/DataInput/104312" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/data/DataInput/104343" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/data/DataInput/104541" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/data/DataInput/104582" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/data/DataInput/104630" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/data/DataInput/53296" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/data/DataInput/54215" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/data/DataInput/54380" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/data/DataInput/54684" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/data/DataInput/58862" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/data/DataInput/59122" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/data/DataInput/59283" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/data/DataInput/59285" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/data/DataInput/59286" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/data/DataInput/60172" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/data/DataInput/60207" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/data/DataInput/60758" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/data/TestData/104312" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/data/TestData/104582" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/data/TestData/53296" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/data/TestData/59283" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/data/stopword.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/src/main/java/lda/Document.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/src/main/java/lda/LDA.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/src/main/java/lda/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/src/main/java/lda/Test.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/src/main/java/lda/TopicModel.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/src/main/java/org/tartarus/snowball/Among.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/src/main/java/org/tartarus/snowball/SnowballProgram.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/src/main/java/org/tartarus/snowball/SnowballStemmer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/src/main/java/org/tartarus/snowball/TestApp.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/src/main/java/org/tartarus/snowball/ext/danishStemmer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/src/main/java/org/tartarus/snowball/ext/dutchStemmer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/src/main/java/org/tartarus/snowball/ext/englishStemmer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/src/main/java/org/tartarus/snowball/ext/finnishStemmer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/src/main/java/org/tartarus/snowball/ext/frenchStemmer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/src/main/java/org/tartarus/snowball/ext/germanStemmer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/src/main/java/org/tartarus/snowball/ext/hungarianStemmer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/src/main/java/org/tartarus/snowball/ext/italianStemmer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/src/main/java/org/tartarus/snowball/ext/norwegianStemmer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/src/main/java/org/tartarus/snowball/ext/porterStemmer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/src/main/java/org/tartarus/snowball/ext/portugueseStemmer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/src/main/java/org/tartarus/snowball/ext/romanianStemmer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/src/main/java/org/tartarus/snowball/ext/russianStemmer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/src/main/java/org/tartarus/snowball/ext/spanishStemmer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/src/main/java/org/tartarus/snowball/ext/swedishStemmer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/src/main/java/org/tartarus/snowball/ext/turkishStemmer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/src/main/java/util/IO.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../LDA/src/main/java/util/MyJavaUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/.idea/dictionaries/bibek.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/preprocess/BikeCleaner.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/preprocess/BikeIdentity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/preprocess/BikePreProcessing.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/preprocess/BikePreprocessingImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/preprocess/BikeProduct.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/preprocess/BodyExteriorDesignDimensions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/preprocess/ChasisBrakeSuspensions.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/preprocess/EngineSpecifications.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/preprocess/Performance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/preprocess/SpecWithCategory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/preprocess/Transmission.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/preprocess/client/AutoLifePreProcessing.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/preprocess/client/ClientPreProcessing.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/preprocess/client/ClientPreprocessing.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/preprocess/client/ClientPreprocessingFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/preprocess/client/NepalPricePreProcessing.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/preprocess/constant/BodyExterior.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/preprocess/constant/ChasisBrakeSuspension.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/preprocess/constant/EngineSpecification.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/preprocess/constant/Performance.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/preprocess/constant/SpecCategory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/preprocess/constant/Transmission.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/scrape/bike/client/ClientIdentity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/util/FileUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/util/StringUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/resources/brand_name.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/test/java/preprocess/BikeCleanerSpec.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/test/java/preprocess/BikePreprocessingImplSpec.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/cs-persistence/src/main/java/cspersistence/api/BikeProductResource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/cs-persistence/src/main/java/cspersistence/config/ElasticSearchConfiguration.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/cs-persistence/src/main/java/cspersistence/document/BikeIdentity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/cs-persistence/src/main/java/cspersistence/document/BikeProduct.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/cs-persistence/src/main/java/cspersistence/document/SpecWithCategory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/cs-persistence/src/main/java/cspersistence/repository/BikeProductRepository.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/cs-persistence/src/main/java/cspersistence/service/BikeProductService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../c&amp;s/cs-persistence/src/main/java/cspersistence/service/impl/BikeProductServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../elasticsearch/src/main/java/benchmark/ParallelWordCount.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../elasticsearch/src/main/java/tfidf/TFIDFCalculator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../elasticsearch/src/test/java/tfidf/TFIDFCalculatorSpec.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/bike/Bike.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/bike/BikeBrand.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/bike/BikeBrandWiki.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/bike/BrandRecognition$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/bike/BrandRecognition.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/bike/GoogleResults$ResponseData.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/bike/GoogleResults$Result.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/bike/GoogleResults.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/bike/Main.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/bike/Scrape.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/bike/ShowRoom.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/bike/WikiBike.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/bike/WikipediaScrape.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/bike/client/AutoLifeScrape.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/bike/client/NewPriceBikeScrape.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/bike/repository/BikeBrandRepository.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/bike/repository/impl/BikeBrandRepoImpl.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/google/Detail/AddressComponent.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/google/Detail/Detail.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/google/Detail/Geometry.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/google/Detail/Location.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/google/Detail/Northeast.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/google/Detail/Photo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/google/Detail/Result.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/google/Detail/Southwest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/google/Detail/Viewport.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/google/Detail/api/PlaceDetailClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/google/GoogleCustomSearchApi.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/google/GooglePlaceApi.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/google/Location.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/google/Nearby/Geometry.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/google/Nearby/Location.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/google/Nearby/NearbySearch.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/google/Nearby/Northeast.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/google/Nearby/OpeningHours.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/google/Nearby/Photo.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/google/Nearby/Result.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/google/Nearby/Southwest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/google/Nearby/Viewport.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/google/Nearby/api/NearbyClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/google/customsearch/Item.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/google/customsearch/Meta.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/google/customsearch/NextPage.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/google/customsearch/Queries.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/google/customsearch/Result.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/google/customsearch/SearchInformation.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/google/customsearch/api/CustomSearchClient.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/request/NearByRequest.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/util/JSOUPUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/util/JsonUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/util/ResourceUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/classes/main/scrape/util/RetrofitUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/distributions/compare&amp;search-1.0-SNAPSHOT.zip" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/distributions/compare&amp;search-1.0-SNAPSHOT/compare&amp;search.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/distributions/compare&amp;search-1.0-SNAPSHOT/lib/animal-sniffer-annotations-1.14.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/distributions/compare&amp;search-1.0-SNAPSHOT/lib/checker-qual-2.0.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/distributions/compare&amp;search-1.0-SNAPSHOT/lib/commons-io-2.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/distributions/compare&amp;search-1.0-SNAPSHOT/lib/commons-lang3-3.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/distributions/compare&amp;search-1.0-SNAPSHOT/lib/converter-gson-2.3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/distributions/compare&amp;search-1.0-SNAPSHOT/lib/error_prone_annotations-2.0.18.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/distributions/compare&amp;search-1.0-SNAPSHOT/lib/gson-2.8.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/distributions/compare&amp;search-1.0-SNAPSHOT/lib/guava-23.5-jre.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/distributions/compare&amp;search-1.0-SNAPSHOT/lib/j2objc-annotations-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/distributions/compare&amp;search-1.0-SNAPSHOT/lib/jackson-annotations-2.9.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/distributions/compare&amp;search-1.0-SNAPSHOT/lib/jsoup-1.11.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/distributions/compare&amp;search-1.0-SNAPSHOT/lib/jsr305-1.3.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/distributions/compare&amp;search-1.0-SNAPSHOT/lib/okhttp-3.9.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/distributions/compare&amp;search-1.0-SNAPSHOT/lib/okio-1.13.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/distributions/compare&amp;search-1.0-SNAPSHOT/lib/retrofit-2.3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/libs/compare&amp;search-1.0-SNAPSHOT.jar" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/resources/main/resource.properties" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build/tmp/jar/MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/out/production/classes/scrape/bike/client/ZigWheelScrape.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/out/production/classes/scrape/util/JSOUPUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/out/production/classes/scrape/util/JsonUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/out/production/classes/scrape/util/ResourceUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/out/production/classes/scrape/util/RetrofitUtils.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../textanalysis/build/classes/main/twittertextanalysis/MySample.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../textanalysis/build/classes/main/twittertextanalysis/ReadClassificationRunOnCsv.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../textanalysis/build/classes/main/twittertextanalysis/RunConfusionMatrix.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../textanalysis/build/classes/main/twittertextanalysis/RunXValidate.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../textanalysis/build/classes/main/twittertextanalysis/TrainAndRunLMClassifier.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../textanalysis/build/classes/main/twittertextanalysis/TwitterSearch.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../textanalysis/build/classes/main/twittertextanalysis/Util$1.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../textanalysis/build/classes/main/twittertextanalysis/Util.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../textanalysis/build/resources/main/twitter4j.properties" afterPath="" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/scrape/util/JSOUPUtils.java" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/util/JSOUPUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/scrape/util/JsonUtils.java" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/util/JsonUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/scrape/util/ResourceUtils.java" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/util/ResourceUtils.java" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/scrape/util/RetrofitUtils.java" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/util/RetrofitUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/out/production/classes/scrape/bike/Bike.class" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/out/production/classes/scrape/bike/Bike.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/out/production/classes/scrape/bike/BikeBrand.class" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/out/production/classes/scrape/bike/BikeBrand.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/out/production/classes/scrape/bike/BrandRecognition.class" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/out/production/classes/scrape/bike/BrandRecognition.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/out/production/classes/scrape/bike/Main.class" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/out/production/classes/scrape/bike/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/out/production/classes/scrape/bike/WikipediaScrape.class" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/out/production/classes/scrape/bike/WikipediaScrape.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/out/production/classes/scrape/bike/client/AutoLifeScrape.class" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/out/production/classes/scrape/bike/client/AutoLifeScrape.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/out/production/classes/scrape/bike/client/NewPriceBikeScrape.class" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/out/production/classes/scrape/bike/client/NewPriceBikeScrape.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/out/production/classes/scrape/bike/domain/Specification.class" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/out/production/classes/scrape/bike/domain/Specification.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/out/production/classes/scrape/google/GooglePlaceApi.class" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/out/production/classes/scrape/google/GooglePlaceApi.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/out/test/classes/scrape/BikeScrapeSpec.class" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/out/test/classes/scrape/BikeScrapeSpec.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/out/test/classes/scrape/bike/BikeScrapeSpec.class" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/out/test/classes/scrape/bike/BikeScrapeSpec.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/out/test/classes/scrape/bike/BrandRecognitionSpec.class" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/out/test/classes/scrape/bike/BrandRecognitionSpec.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/out/test/classes/scrape/bike/WikipediaScrapeSpec.class" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/out/test/classes/scrape/bike/WikipediaScrapeSpec.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build.gradle" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/scrape/bike/Bike.java" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/scrape/bike/Bike.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/scrape/bike/BrandRecognition.java" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/scrape/bike/BrandRecognition.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/scrape/bike/Main.java" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/scrape/bike/Main.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/scrape/bike/WikipediaScrape.java" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/scrape/bike/WikipediaScrape.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/scrape/bike/client/AutoLifeScrape.java" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/scrape/bike/client/AutoLifeScrape.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/scrape/bike/client/NewPriceBikeScrape.java" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/scrape/bike/client/NewPriceBikeScrape.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/scrape/google/GooglePlaceApi.java" afterPath="$PROJECT_DIR$/../c&amp;s/compare&amp;search/src/main/java/scrape/google/GooglePlaceApi.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../c&amp;s/cs-persistence/build.gradle" afterPath="$PROJECT_DIR$/../c&amp;s/cs-persistence/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../c&amp;s/cs-persistence/src/main/java/cspersistence/CsPersistenceApplication.java" afterPath="$PROJECT_DIR$/../c&amp;s/cs-persistence/src/main/java/cspersistence/CsPersistenceApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../c&amp;s/cs-persistence/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../c&amp;s/cs-persistence/src/main/resources/application.properties" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../elasticsearch/build.gradle" afterPath="$PROJECT_DIR$/../elasticsearch/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/tamingtext_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/tamingtext_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/tamingtext_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/tamingtext_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../textanalysis/.idea/modules/twittertextanalysis.iml" afterPath="$PROJECT_DIR$/../textanalysis/.idea/modules/twittertextanalysis.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../textanalysis/.idea/modules/twittertextanalysis_main.iml" afterPath="$PROJECT_DIR$/../textanalysis/.idea/modules/twittertextanalysis_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../textanalysis/.idea/modules/twittertextanalysis_test.iml" afterPath="$PROJECT_DIR$/../textanalysis/.idea/modules/twittertextanalysis_test.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../textanalysis/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../textanalysis/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -19,11 +237,69 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Frankenstein.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Frankenstein.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/chapterone/Frankenstein.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1876">
+            <state relative-caret-position="1326">
               <caret line="102" column="96" lean-forward="false" selection-start-line="102" selection-start-column="96" selection-end-line="102" selection-end-column="96" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SimpleTokenizerONLP.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tokenization/SimpleTokenizerONLP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CommonTokenization.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tokenization/CommonTokenization.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="153">
+              <caret line="13" column="82" lean-forward="false" selection-start-line="13" selection-start-column="82" selection-end-line="13" selection-end-column="82" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TokenizerMEONLP.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tokenization/TokenizerMEONLP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="527">
+              <caret line="31" column="87" lean-forward="false" selection-start-line="31" selection-start-column="87" selection-end-line="31" selection-end-column="87" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InputStream.java" pinned="false" current-in-tab="false">
+        <entry file="jar://$USER_HOME$/software/java/jdk1.8.0_151/src.zip!/java/io/InputStream.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="31" column="71" lean-forward="false" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="71" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WhiteSpaceTokenizerONLP.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/tokenization/WhiteSpaceTokenizerONLP.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -75,56 +351,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Query.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/software/java/jdk1.8.0_151/src.zip!/javax/management/Query.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="544">
-              <caret line="55" column="14" lean-forward="false" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StoredField.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-core/7.1.0/8b943b2d40d96042fb26609d70ec72b949fdaf85/lucene-core-7.1.0-sources.jar!/org/apache/lucene/document/StoredField.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="QueryParser.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-queryparser/7.1.0/6df630683e42bb3c59c308b65f281c45509e4e47/lucene-queryparser-7.1.0-sources.jar!/org/apache/lucene/queryparser/classic/QueryParser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1377">
-              <caret line="93" column="10" lean-forward="false" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="10" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Field.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-core/7.1.0/8b943b2d40d96042fb26609d70ec72b949fdaf85/lucene-core-7.1.0-sources.jar!/org/apache/lucene/document/Field.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="595">
-              <caret line="61" column="16" lean-forward="false" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="overview.html" pinned="false" current-in-tab="false">
-        <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-core/7.1.0/8b943b2d40d96042fb26609d70ec72b949fdaf85/lucene-core-7.1.0-sources.jar!/overview.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="90" column="56" lean-forward="false" selection-start-line="90" selection-start-column="56" selection-end-line="90" selection-end-column="56" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -151,6 +377,9 @@
       <find>felix</find>
       <find>paragraph</find>
     </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -511,6 +740,12 @@
         <option value="$PROJECT_DIR$/src/main/resources/frankenstein-gutenberg.txt" />
         <option value="$PROJECT_DIR$/src/main/java/chapterone/HelloLucene.java" />
         <option value="$PROJECT_DIR$/src/main/java/chapterone/Frankenstein.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tokenization/CommonTokenization.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tokenization/SimpleTokenizer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tokenization/SimpleTokenizerONLP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tokenization/WhiteSpaceTokenizer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tokenization/WhiteSpaceTokenizerONLP.java" />
+        <option value="$PROJECT_DIR$/src/main/java/tokenization/TokenizerMEONLP.java" />
       </list>
     </option>
   </component>
@@ -528,6 +763,7 @@
     <option name="width" value="1252" />
     <option name="height" value="1031" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -543,9 +779,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -578,6 +812,14 @@
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="chapterone" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="tamingtext" type="b2602c69:ProjectViewProjectNode" />
+              <item name="tamingtext" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tokenization" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="tamingtext" type="b2602c69:ProjectViewProjectNode" />
@@ -620,13 +862,15 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="Scratches" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="/opt/lampp/htdocs/pis-project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -643,7 +887,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Frankenstein">
+  <component name="RunManager" selected="Application.TokenizerMEONLP">
     <configuration name="Frankenstein" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -671,6 +915,63 @@
         </pattern>
       </extension>
       <option name="MAIN_CLASS_NAME" value="chapterone.HelloLucene" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="tamingtext_main" />
+      <envs />
+    </configuration>
+    <configuration name="SimpleTokenizerONLP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tokenization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="tokenization.SimpleTokenizerONLP" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="tamingtext_main" />
+      <envs />
+    </configuration>
+    <configuration name="TokenizerMEONLP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tokenization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="tokenization.TokenizerMEONLP" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="tamingtext_main" />
+      <envs />
+    </configuration>
+    <configuration name="WhiteSpaceTokenizerONLP" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="tokenization.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="tokenization.WhiteSpaceTokenizerONLP" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -762,14 +1063,20 @@
       <properties />
       <listeners />
     </configuration>
-    <list size="2">
+    <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.Frankenstein" />
       <item index="1" class="java.lang.String" itemvalue="Application.HelloLucene" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SimpleTokenizerONLP" />
+      <item index="3" class="java.lang.String" itemvalue="Application.WhiteSpaceTokenizerONLP" />
+      <item index="4" class="java.lang.String" itemvalue="Application.TokenizerMEONLP" />
     </list>
     <recent_temporary>
-      <list size="2">
-        <item index="0" class="java.lang.String" itemvalue="Application.Frankenstein" />
-        <item index="1" class="java.lang.String" itemvalue="Application.HelloLucene" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Application.TokenizerMEONLP" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SimpleTokenizerONLP" />
+        <item index="2" class="java.lang.String" itemvalue="Application.WhiteSpaceTokenizerONLP" />
+        <item index="3" class="java.lang.String" itemvalue="Application.Frankenstein" />
+        <item index="4" class="java.lang.String" itemvalue="Application.HelloLucene" />
       </list>
     </recent_temporary>
   </component>
@@ -794,11 +1101,13 @@
       <workItem from="1513432688468" duration="5174000" />
       <workItem from="1513504251106" duration="329000" />
       <workItem from="1513504629692" duration="1391000" />
+      <workItem from="1515346170522" duration="3377000" />
+      <workItem from="1515420992691" duration="620000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27952000" />
+    <option name="totallyTimeSpent" value="31949000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -810,8 +1119,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="28" y="-3" width="1252" height="1027" extended-state="6" />
-    <editor active="true" />
+    <frame x="28" y="-7" width="1252" height="1031" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32923076" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -820,12 +1128,12 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3276923" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32673267" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2644628" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.29090908" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -840,7 +1148,7 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32893288" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -851,46 +1159,11 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="34" />
+      <option name="time" value="35" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.opennlp/opennlp-tools/1.8.3/2c14e641e69271be54dee30e9b308d1e0b9d303f/opennlp-tools-1.8.3-sources.jar!/opennlp/tools/namefind/NameFinderME.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="918">
-          <caret line="54" column="13" lean-forward="false" selection-start-line="54" selection-start-column="13" selection-end-line="54" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-core/7.1.0/8b943b2d40d96042fb26609d70ec72b949fdaf85/lucene-core-7.1.0-sources.jar!/org/apache/lucene/search/IndexSearcher.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1309">
-          <caret line="77" column="13" lean-forward="false" selection-start-line="77" selection-start-column="13" selection-end-line="77" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-core/7.1.0/8b943b2d40d96042fb26609d70ec72b949fdaf85/lucene-core-7.1.0-sources.jar!/org/apache/lucene/store/RAMDirectory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="38" column="64" lean-forward="false" selection-start-line="38" selection-start-column="64" selection-end-line="38" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.apache.lucene/lucene-core/7.1.0/8b943b2d40d96042fb26609d70ec72b949fdaf85/lucene-core-7.1.0-sources.jar!/org/apache/lucene/store/SingleInstanceLockFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="289">
-          <caret line="33" column="19" lean-forward="false" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="527">
@@ -1122,7 +1395,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1241">
           <caret line="96" column="20" lean-forward="false" selection-start-line="96" selection-start-column="20" selection-end-line="96" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1151,7 +1423,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1530">
           <caret line="90" column="56" lean-forward="false" selection-start-line="90" selection-start-column="56" selection-end-line="90" selection-end-column="56" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1159,7 +1430,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="595">
           <caret line="61" column="16" lean-forward="false" selection-start-line="61" selection-start-column="16" selection-end-line="61" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1167,7 +1437,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="25" column="13" lean-forward="false" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1175,7 +1444,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1377">
           <caret line="93" column="10" lean-forward="false" selection-start-line="93" selection-start-column="10" selection-end-line="93" selection-end-column="10" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1183,7 +1451,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="55" column="14" lean-forward="false" selection-start-line="55" selection-start-column="14" selection-end-line="55" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1225,8 +1492,56 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/chapterone/Frankenstein.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1876">
+        <state relative-caret-position="1326">
           <caret line="102" column="96" lean-forward="false" selection-start-line="102" selection-start-column="96" selection-end-line="102" selection-end-column="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tokenization/SimpleTokenizerONLP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="13" column="28" lean-forward="false" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tokenization/WhiteSpaceTokenizerONLP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="12" column="36" lean-forward="false" selection-start-line="12" selection-start-column="36" selection-end-line="12" selection-end-column="36" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tokenization/CommonTokenization.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="13" column="82" lean-forward="false" selection-start-line="13" selection-start-column="82" selection-end-line="13" selection-end-column="82" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$USER_HOME$/software/java/jdk1.8.0_151/src.zip!/java/io/InputStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="31" column="71" lean-forward="false" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="71" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/tokenization/TokenizerMEONLP.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="87" lean-forward="false" selection-start-line="31" selection-start-column="87" selection-end-line="31" selection-end-column="87" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -8,8 +8,8 @@ import scrape.bike.Bike;
 import scrape.bike.BikeBrand;
 import scrape.bike.BrandRecognition;
 import scrape.bike.Scrape;
-import scrape.util.JSOUPUtils;
-import scrape.util.JsonUtils;
+import util.JSOUPUtils;
+import util.JsonUtils;
 
 import java.io.File;
 import java.io.IOException;
@@ -90,7 +90,7 @@ public class NewPriceBikeScrape implements Scrape {
             }
         });
         try {
-            FileUtils.writeStringToFile(new File("/home/bibek/bs-workspace/bike/newpricenepal.json"), JsonUtils.toJsonList(bikeBrands), StandardCharsets.UTF_8);
+            FileUtils.writeStringToFile(new File("/home/bibek/bs-workspace/bike/preprocess/scrape/newpricenepal.json"), JsonUtils.toJsonList(bikeBrands), StandardCharsets.UTF_8);
         } catch (IOException e) {
             e.printStackTrace();
         }
