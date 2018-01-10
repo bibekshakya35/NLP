@@ -1,11 +1,10 @@
 package tokenization;
 
-import java.io.File;
+import common.CommonText;
+
 import java.io.FileNotFoundException;
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Scanner;
 
 /**
  * @author bibek on 1/7/18
@@ -13,7 +12,7 @@ import java.util.Scanner;
  */
 public class SimpleTokenizerONLP {
     public static void main(String[] args) throws FileNotFoundException{
-        List<String> list = CommonTokenization.listOfStringFromFile();
+        List<String> list = CommonText.listOfStringFromFile();
         //Intializing SimpleTokenizerONLP class
         opennlp.tools.tokenize.SimpleTokenizer simpleTokenizer =
                 opennlp.tools.tokenize.SimpleTokenizer.INSTANCE;

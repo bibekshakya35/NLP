@@ -3,7 +3,7 @@ package partsofspeech;
 import opennlp.tools.postag.POSModel;
 import opennlp.tools.postag.POSTaggerME;
 import opennlp.tools.tokenize.SimpleTokenizer;
-import tokenization.CommonTokenization;
+import common.CommonText;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -21,7 +21,7 @@ public class POSTagger {
         FileInputStream posModelStream = new FileInputStream(posModelFile);
         POSModel posModel = new POSModel(posModelStream);
         POSTaggerME taggerME = new POSTaggerME(posModel);
-        List<String> list = CommonTokenization.listOfStringFromFile();
+        List<String> list = CommonText.listOfStringFromFile();
         List<String[]> words = new ArrayList<>();
         list.forEach(line->words.add(SimpleTokenizer.INSTANCE.tokenize(line)));
         List<String[]> results = new ArrayList<>();

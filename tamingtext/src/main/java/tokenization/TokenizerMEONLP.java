@@ -1,5 +1,6 @@
 package tokenization;
 
+import common.CommonText;
 import opennlp.tools.tokenize.TokenizerME;
 import opennlp.tools.tokenize.TokenizerModel;
 
@@ -19,7 +20,7 @@ public class TokenizerMEONLP {
     private static final String MODEL_FILE_PATH = "/home/bibek/bs-workspace/tamingtext_resources/opennlp-models/en-token.bin";
 
     public static void main(String [] args) throws Exception{
-        List<String> list = CommonTokenization.listOfStringFromFile();
+        List<String> list = CommonText.listOfStringFromFile();
         //loading the tokenizer model
         InputStream inputStream =
                 new FileInputStream(MODEL_FILE_PATH);
