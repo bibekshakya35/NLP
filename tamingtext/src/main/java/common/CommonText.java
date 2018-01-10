@@ -26,6 +26,13 @@ public class CommonText {
         commonFileReader(files,list);
         return list;
     }
+    public static List<String> provideSentenceParser(){
+        File dir = new File("/home/bibek/bs-workspace/tamingtext_resources/files/SP");
+        File [] files = dir.listFiles();
+        List<String> list = new ArrayList<>();
+        commonFileReader(files,list);
+        return list;
+    }
     private static void commonFileReader(File[] files,List<String> list){
         try{
             for (File file:

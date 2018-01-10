@@ -1,7 +1,7 @@
 package spec;
 
 import org.junit.Test;
-import sentencedetection.SentenceDetection;
+import sentence.detection.SentenceDetection;
 
 import java.io.IOException;
 
@@ -15,4 +15,5 @@ public class SentenceDetectionSpec {
         SentenceDetection sentenceDetection = new SentenceDetection();
         sentenceDetection.usingOpenNLPForSentenceDetection();
     }
+
 }

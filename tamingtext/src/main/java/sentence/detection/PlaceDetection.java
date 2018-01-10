@@ -1,4 +1,4 @@
-package sentencedetection;
+package sentence.detection;
 
 import common.CommonText;
 

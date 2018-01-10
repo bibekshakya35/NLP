@@ -1,4 +1,4 @@
-package sentencedetection;
+package sentence.detection;
 
 import common.CommonText;
 import opennlp.tools.sentdetect.SentenceDetector;
