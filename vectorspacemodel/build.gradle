@@ -1,0 +1,27 @@
+group 'vectorspacemodel'
+version '0.0.1'
+
+apply plugin: 'java'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+    // https://mvnrepository.com/artifact/com.google.guava/guava
+    compile group: 'com.google.guava', name: 'guava', version: '23.0'
+    // https://mvnrepository.com/artifact/org.apache.lucene/lucene-core
+    compile group: 'org.apache.lucene', name: 'lucene-core', version: '3.6.2'
+    // https://mvnrepository.com/artifact/org.apache.lucene/lucene-analyzers
+    compile group: 'org.apache.lucene', name: 'lucene-analyzers', version: '3.6.2'
+    // https://mvnrepository.com/artifact/org.apache.lucene/lucene-queryparser
+    compile group: 'org.apache.lucene', name: 'lucene-queryparser', version: '3.6.2'
+    // https://mvnrepository.com/artifact/org.apache.lucene/lucene-queries
+    compile group: 'org.apache.lucene', name: 'lucene-queries', version: '3.6.2'
+    compile group: 'org.apache.commons', name: 'commons-math3', version: '3.2'
+    // https://mvnrepository.com/artifact/commons-io/commons-io
+    compile group: 'commons-io', name: 'commons-io', version: '2.6'
+}
