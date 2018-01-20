@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="spec.SentenceDetectionSpec" tests="1" skipped="0" failures="0" errors="0" timestamp="2018-01-10T06:13:07" hostname="bibek" time="0.001">
-  <properties/>
-  <testcase name="detectSentencFromOpenNLP" classname="spec.SentenceDetectionSpec" time="0.001"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>
