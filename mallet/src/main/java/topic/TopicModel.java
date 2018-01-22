@@ -101,7 +101,5 @@ public class TopicModel {
         TopicInferencer inference = model.getInferencer();
         double[] testProbabilities = inference.getSampledDistribution(testing.get(0),10,1,5);
         System.out.println("0\t"+testProbabilities[0]);
-
-
     }
 }
