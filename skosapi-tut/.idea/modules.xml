@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/skosapi-tut.iml" filepath="$PROJECT_DIR$/.idea/modules/skosapi-tut.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/skosapi-tut_main.iml" filepath="$PROJECT_DIR$/.idea/modules/skosapi-tut_main.iml" group="skosapi-tut" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/skosapi-tut_test.iml" filepath="$PROJECT_DIR$/.idea/modules/skosapi-tut_test.iml" group="skosapi-tut" />
+    </modules>
+  </component>
+</project>

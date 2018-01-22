@@ -1,0 +1,5 @@
+alpha:10.0
+beta:0.1
+topicSize:5
+iteration:1000
+estimate_iteration:200
