@@ -14,13 +14,21 @@ import java.util.regex.Pattern;
 public class TopicModel {
     public static void main(String[] args) throws FileNotFoundException,
             UnsupportedEncodingException, IOException {
+        Pattern patternForTokenSeq = Pattern.compile("\\p{L}[\\p{L}\\p{P}]+\\p{L}");
+
+
         //Begin by importing
         //documents from text
         //to feature sequences
         List<Pipe> pipeList = new ArrayList<>();
         pipeList.add(new CharSequenceLowercase());
-        pipeList.add(new CharSequence2TokenSequence());
-        pipeList.add(new TokenSequenceRemoveStopwords());
+        pipeList.add(new CharSequence2TokenSequence(patternForTokenSeq));
+        pipeList.add(new TokenSequenceRemoveStopwords(
+                new File(args[1]),
+                "UTF-8",
+                false,
+                false,
+                false));
         pipeList.add(new TokenSequence2FeatureSequence());
 
         InstanceList instances = new InstanceList(new SerialPipes(pipeList));
@@ -33,7 +41,7 @@ public class TopicModel {
         // create a model with 100 topics, alpha_t =0.01, beta_w=0.01
         // Note that the first parameter is passed as the sum over topics, while
         // the second is the parameter for a single dimension of the Dirichlet prior.
-        int numTopics = 100;
+        int numTopics = 10;
         ParallelTopicModel model = new ParallelTopicModel(numTopics, 1.0, 0.01);
 
         model.addInstances(instances);
@@ -69,17 +77,17 @@ public class TopicModel {
                 .getSortedWords();
         //show top 5 words in topics
         //with proportions for the first document
-        for (int topic =0; topic <numTopics;topic++){
+        for (int topic = 0; topic < numTopics; topic++) {
             Iterator<IDSorter> iterator = topicSortedWords.get(topic)
                     .iterator();
             formatter = new Formatter(
-                    new StringBuilder(),Locale.US
+                    new StringBuilder(), Locale.US
             );
-            formatter.format("%d\t%.3f\t",topic,topicDistribution[topic]);
+            formatter.format("%d\t%.3f\t", topic, topicDistribution[topic]);
             int rank = 0;
-            while (iterator.hasNext()&&rank<10){
+            while (iterator.hasNext() && rank < 10) {
                 IDSorter idCountPair = iterator.next();
-                formatter.format("%s (%.0f) ",dataAlphabet.lookupObject(idCountPair.getID()),idCountPair.getWeight());
+                formatter.format("%s (%.0f) ", dataAlphabet.lookupObject(idCountPair.getID()), idCountPair.getWeight());
                 rank++;
             }
             System.out.println(formatter);
@@ -88,18 +96,18 @@ public class TopicModel {
         StringBuilder topicZeroText = new StringBuilder();
         Iterator<IDSorter> iterator = topicSortedWords.get(0).iterator();
         int rank = 0;
-        while (iterator.hasNext()&& rank<5){
+        while (iterator.hasNext() && rank < 5) {
             IDSorter idCountPart = iterator.next();
-            topicZeroText.append(dataAlphabet.lookupObject(idCountPart.getID())+ " " );
+            topicZeroText.append(dataAlphabet.lookupObject(idCountPart.getID()) + " ");
             rank++;
         }
         // create a new instance named "text instance" with empty target
         // and source field
         InstanceList testing = new InstanceList(instances.getPipe());
-        testing.addThruPipe(new Instance(topicZeroText.toString(),null,"test instance",null));
+        testing.addThruPipe(new Instance(topicZeroText.toString(), null, "test instance", null));
 
         TopicInferencer inference = model.getInferencer();
-        double[] testProbabilities = inference.getSampledDistribution(testing.get(0),10,1,5);
-        System.out.println("0\t"+testProbabilities[0]);
+        double[] testProbabilities = inference.getSampledDistribution(testing.get(0), 10, 1, 5);
+        System.out.println("0\t" + testProbabilities[0]);
     }
 }

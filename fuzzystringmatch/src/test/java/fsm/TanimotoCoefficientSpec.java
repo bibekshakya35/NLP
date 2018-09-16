@@ -2,9 +2,10 @@ package fsm;
 
 import org.junit.Test;
 
+import java.util.BitSet;
 import java.util.Vector;
 
-public class TanimotoCoefficeintSpec {
+public class TanimotoCoefficientSpec {
     @Test
     public void shouldProvideEqualFeature() {
         String featureOne = "Bibek";
@@ -16,9 +17,14 @@ public class TanimotoCoefficeintSpec {
         }
         Vector featureTwoVector = new Vector();
         char[] f2Chars = featureTwo.toCharArray();
-        for (int i=0;i<=f2Chars.length;i++){
+        for (int i = 0; i <= f2Chars.length; i++) {
             featureTwoVector.add(f2Chars[i]);
         }
-        
+    }
+
+    @Test
+    public void shouldProvideSimilarBitSet() throws IllegalAccessException {
+        //float data = TanimotoCoefficient.calculate();
+        //System.out.println(data);
     }
 }

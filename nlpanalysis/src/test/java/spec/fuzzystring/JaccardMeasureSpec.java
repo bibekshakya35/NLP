@@ -1,6 +1,6 @@
 package spec.fuzzystring;
 
-import fuzzystring.JaccardMeasure;
+import nlp.fuzzystring.JaccardMeasure;
 import org.junit.Assert;
 import org.junit.Test;
 

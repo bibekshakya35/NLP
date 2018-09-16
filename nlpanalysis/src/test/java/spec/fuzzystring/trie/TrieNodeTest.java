@@ -1,6 +1,6 @@
 package spec.fuzzystring.trie;
 
-import fuzzystring.prefix.TrieNode;
+import nlp.fuzzystring.prefix.TrieNode;
 import org.junit.Test;
 import spec.TamingTextTestJ4;
 

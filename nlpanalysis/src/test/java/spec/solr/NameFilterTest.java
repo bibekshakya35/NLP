@@ -12,8 +12,8 @@ import org.apache.lucene.analysis.tokenattributes.OffsetAttribute;
 import org.apache.lucene.analysis.tokenattributes.PositionIncrementAttribute;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import solr.NameFilter;
-import solr.SentenceTokenizer;
+import nlp.solr.NameFilter;
+import nlp.solr.SentenceTokenizer;
 import spec.TamingTextTestJ4;
 
 import java.io.*;
@@ -68,8 +68,8 @@ public class NameFilterTest extends TamingTextTestJ4 {
     @Test
     public void testNameFilter() throws IOException {
         Reader in = new StringReader(input);
-        Tokenizer tokenizer = new SentenceTokenizer(detector);
-        tokenizer.setReader(in);
+        Tokenizer tokenizer = new SentenceTokenizer(in,detector);
+
         NameFilter nameFilter = new NameFilter(tokenizer, modelName, nameFinderMES);
         CharTermAttribute charTermAttribute;
         PositionIncrementAttribute positionIncrementAttribute;

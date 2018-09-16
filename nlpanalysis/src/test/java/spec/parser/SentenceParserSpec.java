@@ -1,7 +1,7 @@
 package spec.parser;
 
 import org.junit.Test;
-import sentence.parse.SentenceParse;
+import nlp.sentence.parse.SentenceParse;
 
 import java.io.IOException;
 

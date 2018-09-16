@@ -1,7 +1,7 @@
 package spec;
 
 import org.junit.Test;
-import sentence.detection.SentenceDetection;
+import nlp.sentence.detection.SentenceDetection;
 
 import java.io.IOException;
 

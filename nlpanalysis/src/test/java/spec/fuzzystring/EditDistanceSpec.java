@@ -1,6 +1,6 @@
 package spec.fuzzystring;
 
-import fuzzystring.EditDistance;
+import nlp.fuzzystring.EditDistance;
 import org.junit.Test;
 
 public class EditDistanceSpec {

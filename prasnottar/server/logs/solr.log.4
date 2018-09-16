@@ -1,0 +1,84 @@
+2018-06-17 17:37:45.900 INFO  (main) [   ] o.e.j.s.Server jetty-9.4.8.v20171121, build timestamp: 2017-11-21T21:27:37Z, git hash: 82b8fb23f757335bb3329d540ce37a2a2615f0a8
+2018-06-17 17:37:46.630 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter  ___      _       Welcome to Apache Solr™ version 7.3.0
+2018-06-17 17:37:46.630 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter / __| ___| |_ _   Starting in standalone mode on port 8983
+2018-06-17 17:37:46.630 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter \__ \/ _ \ | '_|  Install dir: /home/bibek/bs-workspace/NLP/prasnottar
+2018-06-17 17:37:46.648 INFO  (main) [   ] o.a.s.s.SolrDispatchFilter |___/\___/_|_|    Start time: 2018-06-17T17:37:46.631Z
+2018-06-17 17:37:46.690 INFO  (main) [   ] o.a.s.c.SolrResourceLoader Using system property solr.solr.home: /home/bibek/bs-workspace/NLP/prasnottar/server/solr
+2018-06-17 17:37:46.697 INFO  (main) [   ] o.a.s.c.SolrXmlConfig Loading container configuration from /home/bibek/bs-workspace/NLP/prasnottar/server/solr/solr.xml
+2018-06-17 17:37:47.366 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Found 1 core definitions underneath /home/bibek/bs-workspace/NLP/prasnottar/server/solr
+2018-06-17 17:37:47.366 INFO  (main) [   ] o.a.s.c.CorePropertiesLocator Cores are: [prasnottar]
+2018-06-17 17:37:47.373 INFO  (coreLoadExecutor-6-thread-1) [   ] o.a.s.c.TransientSolrCoreCacheDefault Allocating transient cache for 2147483647 transient cores
+2018-06-17 17:37:47.504 INFO  (main) [   ] o.e.j.s.Server Started @2324ms
+2018-06-17 17:37:47.514 INFO  (coreLoadExecutor-6-thread-1) [   x:prasnottar] o.a.s.c.SolrResourceLoader [prasnottar] Added 78 libs to classloader, from paths: [/home/bibek/bs-workspace/NLP/prasnottar/contrib/clustering/lib, /home/bibek/bs-workspace/NLP/prasnottar/contrib/extraction/lib, /home/bibek/bs-workspace/NLP/prasnottar/contrib/langid/lib, /home/bibek/bs-workspace/NLP/prasnottar/contrib/velocity/lib, /home/bibek/bs-workspace/NLP/prasnottar/dist, /home/bibek/bs-workspace/NLP/prasnottar/dist/stanford-corenlp]
+2018-06-17 17:37:47.754 INFO  (coreLoadExecutor-6-thread-1) [   x:prasnottar] o.a.s.u.SolrIndexConfig IndexWriter infoStream solr logging is enabled
+2018-06-17 17:37:47.835 INFO  (coreLoadExecutor-6-thread-1) [   x:prasnottar] o.a.s.c.SolrConfig Using Lucene MatchVersion: 7.3.0
+2018-06-17 17:37:48.083 INFO  (coreLoadExecutor-6-thread-1) [   x:prasnottar] o.a.s.s.IndexSchema [prasnottar] Schema name=pranosttar
+2018-06-17 17:37:48.152 WARN  (coreLoadExecutor-6-thread-1) [   x:prasnottar] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.TrieIntField]. Please consult documentation how to replace it accordingly.
+2018-06-17 17:37:48.158 WARN  (coreLoadExecutor-6-thread-1) [   x:prasnottar] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.TrieFloatField]. Please consult documentation how to replace it accordingly.
+2018-06-17 17:37:48.164 WARN  (coreLoadExecutor-6-thread-1) [   x:prasnottar] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.TrieLongField]. Please consult documentation how to replace it accordingly.
+2018-06-17 17:37:48.173 WARN  (coreLoadExecutor-6-thread-1) [   x:prasnottar] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.TrieDoubleField]. Please consult documentation how to replace it accordingly.
+2018-06-17 17:37:48.184 WARN  (coreLoadExecutor-6-thread-1) [   x:prasnottar] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.TrieDateField]. Please consult documentation how to replace it accordingly.
+2018-06-17 17:37:48.250 WARN  (coreLoadExecutor-6-thread-1) [   x:prasnottar] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.ManagedSynonymFilterFactory]. Please consult documentation how to replace it accordingly.
+2018-06-17 17:37:48.257 WARN  (coreLoadExecutor-6-thread-1) [   x:prasnottar] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.SynonymFilterFactory]. Please consult documentation how to replace it accordingly.
+2018-06-17 17:37:48.280 WARN  (coreLoadExecutor-6-thread-1) [   x:prasnottar] o.a.s.c.SolrResourceLoader Solr loaded a deprecated plugin/analysis class [solr.WordDelimiterFilterFactory]. Please consult documentation how to replace it accordingly.
+2018-06-17 17:37:48.318 ERROR (coreContainerWorkExecutor-2-thread-1) [   ] o.a.s.c.CoreContainer Error waiting for SolrCore to be created
+java.util.concurrent.ExecutionException: org.apache.solr.common.SolrException: Unable to create core [prasnottar]
+	at java.util.concurrent.FutureTask.report(FutureTask.java:122)
+	at java.util.concurrent.FutureTask.get(FutureTask.java:192)
+	at org.apache.solr.core.CoreContainer.lambda$load$14(CoreContainer.java:669)
+	at com.codahale.metrics.InstrumentedExecutorService$InstrumentedRunnable.run(InstrumentedExecutorService.java:176)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:511)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at org.apache.solr.common.util.ExecutorUtil$MDCAwareThreadPoolExecutor.lambda$execute$0(ExecutorUtil.java:188)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.apache.solr.common.SolrException: Unable to create core [prasnottar]
+	at org.apache.solr.core.CoreContainer.createFromDescriptor(CoreContainer.java:1056)
+	at org.apache.solr.core.CoreContainer.lambda$load$13(CoreContainer.java:640)
+	at com.codahale.metrics.InstrumentedExecutorService$InstrumentedCallable.call(InstrumentedExecutorService.java:197)
+	... 5 more
+Caused by: org.apache.solr.common.SolrException: Could not load conf for core prasnottar: Can't load schema /home/bibek/bs-workspace/NLP/prasnottar/server/solr/prasnottar/conf/schema.xml: Plugin init failure for [schema.xml] fieldType "PrasnottarAnalyser": Plugin init failure for [schema.xml] analyzer/filter: Error loading class 'com.prasnottar.solr.StanfordFactory'
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:97)
+	at org.apache.solr.core.CoreContainer.getConfigSet(CoreContainer.java:1084)
+	at org.apache.solr.core.CoreContainer.createFromDescriptor(CoreContainer.java:1036)
+	... 7 more
+Caused by: org.apache.solr.common.SolrException: Can't load schema /home/bibek/bs-workspace/NLP/prasnottar/server/solr/prasnottar/conf/schema.xml: Plugin init failure for [schema.xml] fieldType "PrasnottarAnalyser": Plugin init failure for [schema.xml] analyzer/filter: Error loading class 'com.prasnottar.solr.StanfordFactory'
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:582)
+	at org.apache.solr.schema.IndexSchema.<init>(IndexSchema.java:179)
+	at org.apache.solr.schema.IndexSchemaFactory.create(IndexSchemaFactory.java:56)
+	at org.apache.solr.schema.IndexSchemaFactory.buildIndexSchema(IndexSchemaFactory.java:75)
+	at org.apache.solr.core.ConfigSetService.createIndexSchema(ConfigSetService.java:119)
+	at org.apache.solr.core.ConfigSetService.getConfig(ConfigSetService.java:92)
+	... 9 more
+Caused by: org.apache.solr.common.SolrException: Plugin init failure for [schema.xml] fieldType "PrasnottarAnalyser": Plugin init failure for [schema.xml] analyzer/filter: Error loading class 'com.prasnottar.solr.StanfordFactory'
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:182)
+	at org.apache.solr.schema.IndexSchema.readSchema(IndexSchema.java:473)
+	... 14 more
+Caused by: org.apache.solr.common.SolrException: Plugin init failure for [schema.xml] analyzer/filter: Error loading class 'com.prasnottar.solr.StanfordFactory'
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:182)
+	at org.apache.solr.schema.FieldTypePluginLoader.readAnalyzer(FieldTypePluginLoader.java:414)
+	at org.apache.solr.schema.FieldTypePluginLoader.create(FieldTypePluginLoader.java:104)
+	at org.apache.solr.schema.FieldTypePluginLoader.create(FieldTypePluginLoader.java:53)
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:152)
+	... 15 more
+Caused by: org.apache.solr.common.SolrException: Error loading class 'com.prasnottar.solr.StanfordFactory'
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:557)
+	at org.apache.solr.core.SolrResourceLoader.newInstance(SolrResourceLoader.java:626)
+	at org.apache.solr.schema.FieldTypePluginLoader$3.create(FieldTypePluginLoader.java:397)
+	at org.apache.solr.schema.FieldTypePluginLoader$3.create(FieldTypePluginLoader.java:390)
+	at org.apache.solr.util.plugin.AbstractPluginLoader.load(AbstractPluginLoader.java:152)
+	... 19 more
+Caused by: java.lang.ClassNotFoundException: com.prasnottar.solr.StanfordFactory
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:424)
+	at java.net.FactoryURLClassLoader.loadClass(URLClassLoader.java:814)
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:357)
+	at java.lang.Class.forName0(Native Method)
+	at java.lang.Class.forName(Class.java:348)
+	at org.apache.solr.core.SolrResourceLoader.findClass(SolrResourceLoader.java:541)
+	... 23 more
+2018-06-17 17:39:04.750 INFO  (Thread-0) [   ] o.a.s.c.CoreContainer Shutting down CoreContainer instance=1632914150
+2018-06-17 17:39:04.752 INFO  (Thread-0) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.node, tag=null
+2018-06-17 17:39:04.753 INFO  (Thread-0) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jvm, tag=null
+2018-06-17 17:39:04.753 INFO  (Thread-0) [   ] o.a.s.m.SolrMetricManager Closing metric reporters for registry=solr.jetty, tag=null

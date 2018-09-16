@@ -5,153 +5,276 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8c72b77e-aa1b-4603-ade9-7eb6b049613f" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/bibek.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/preprocess/BikeCleaner.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/preprocess/BikeIdentity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/preprocess/BikePreProcessing.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/preprocess/BikePreprocessingImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/preprocess/BikeProduct.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/preprocess/BodyExteriorDesignDimensions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/preprocess/ChasisBrakeSuspensions.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/preprocess/EngineSpecifications.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/preprocess/Performance.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/preprocess/SpecWithCategory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/preprocess/Transmission.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/preprocess/client/AutoLifePreProcessing.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/preprocess/client/ClientPreProcessing.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/preprocess/client/ClientPreprocessing.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/preprocess/client/ClientPreprocessingFactory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/preprocess/client/NepalPricePreProcessing.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/preprocess/constant/BodyExterior.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/preprocess/constant/ChasisBrakeSuspension.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/preprocess/constant/EngineSpecification.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/preprocess/constant/Performance.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/preprocess/constant/SpecCategory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/preprocess/constant/Transmission.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/scrape/bike/client/ClientIdentity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/util/FileUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/util/StringUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/brand_name.properties" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/preprocess/BikeCleanerSpec.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/preprocess/BikePreprocessingImplSpec.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cs-persistence/src/main/java/cspersistence/api/BikeProductResource.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cs-persistence/src/main/java/cspersistence/config/ElasticSearchConfiguration.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cs-persistence/src/main/java/cspersistence/document/BikeIdentity.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cs-persistence/src/main/java/cspersistence/document/BikeProduct.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cs-persistence/src/main/java/cspersistence/document/SpecWithCategory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cs-persistence/src/main/java/cspersistence/repository/BikeProductRepository.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cs-persistence/src/main/java/cspersistence/service/BikeProductService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../cs-persistence/src/main/java/cspersistence/service/impl/BikeProductServiceImpl.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../elasticsearch/src/main/java/benchmark/ParallelWordCount.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../elasticsearch/src/main/java/tfidf/TFIDFCalculator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../elasticsearch/src/test/java/tfidf/TFIDFCalculatorSpec.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/bike/Bike.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/bike/BikeBrand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/bike/BikeBrandWiki.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/bike/BrandRecognition$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/bike/BrandRecognition.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/bike/GoogleResults$ResponseData.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/bike/GoogleResults$Result.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/bike/GoogleResults.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/bike/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/bike/Scrape.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/bike/ShowRoom.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/bike/WikiBike.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/bike/WikipediaScrape.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/bike/client/AutoLifeScrape.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/bike/client/NewPriceBikeScrape.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/bike/repository/BikeBrandRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/bike/repository/impl/BikeBrandRepoImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/google/Detail/AddressComponent.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/google/Detail/Detail.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/google/Detail/Geometry.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/google/Detail/Location.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/google/Detail/Northeast.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/google/Detail/Photo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/google/Detail/Result.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/google/Detail/Southwest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/google/Detail/Viewport.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/google/Detail/api/PlaceDetailClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/google/GoogleCustomSearchApi.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/google/GooglePlaceApi.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/google/Location.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/google/Nearby/Geometry.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/google/Nearby/Location.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/google/Nearby/NearbySearch.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/google/Nearby/Northeast.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/google/Nearby/OpeningHours.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/google/Nearby/Photo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/google/Nearby/Result.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/google/Nearby/Southwest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/google/Nearby/Viewport.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/google/Nearby/api/NearbyClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/google/customsearch/Item.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/google/customsearch/Meta.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/google/customsearch/NextPage.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/google/customsearch/Queries.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/google/customsearch/Result.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/google/customsearch/SearchInformation.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/google/customsearch/api/CustomSearchClient.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/request/NearByRequest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/util/JSOUPUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/util/JsonUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/util/ResourceUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/classes/main/scrape/util/RetrofitUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/distributions/compare&amp;search-1.0-SNAPSHOT.zip" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/distributions/compare&amp;search-1.0-SNAPSHOT/compare&amp;search.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/distributions/compare&amp;search-1.0-SNAPSHOT/lib/animal-sniffer-annotations-1.14.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/distributions/compare&amp;search-1.0-SNAPSHOT/lib/checker-qual-2.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/distributions/compare&amp;search-1.0-SNAPSHOT/lib/commons-io-2.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/distributions/compare&amp;search-1.0-SNAPSHOT/lib/commons-lang3-3.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/distributions/compare&amp;search-1.0-SNAPSHOT/lib/converter-gson-2.3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/distributions/compare&amp;search-1.0-SNAPSHOT/lib/error_prone_annotations-2.0.18.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/distributions/compare&amp;search-1.0-SNAPSHOT/lib/gson-2.8.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/distributions/compare&amp;search-1.0-SNAPSHOT/lib/guava-23.5-jre.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/distributions/compare&amp;search-1.0-SNAPSHOT/lib/j2objc-annotations-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/distributions/compare&amp;search-1.0-SNAPSHOT/lib/jackson-annotations-2.9.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/distributions/compare&amp;search-1.0-SNAPSHOT/lib/jsoup-1.11.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/distributions/compare&amp;search-1.0-SNAPSHOT/lib/jsr305-1.3.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/distributions/compare&amp;search-1.0-SNAPSHOT/lib/okhttp-3.9.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/distributions/compare&amp;search-1.0-SNAPSHOT/lib/okio-1.13.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/distributions/compare&amp;search-1.0-SNAPSHOT/lib/retrofit-2.3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/libs/compare&amp;search-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/resources/main/resource.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/build/tmp/jar/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/scrape/bike/client/ZigWheelScrape.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/scrape/util/JSOUPUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/scrape/util/JsonUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/scrape/util/ResourceUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/out/production/classes/scrape/util/RetrofitUtils.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/scrape/util/JSOUPUtils.java" afterPath="$PROJECT_DIR$/src/main/java/util/JSOUPUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/scrape/util/JsonUtils.java" afterPath="$PROJECT_DIR$/src/main/java/util/JsonUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/scrape/util/ResourceUtils.java" afterPath="$PROJECT_DIR$/src/main/java/util/ResourceUtils.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/scrape/util/RetrofitUtils.java" afterPath="$PROJECT_DIR$/src/main/java/util/RetrofitUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scrape/bike/Bike.class" afterPath="$PROJECT_DIR$/out/production/classes/scrape/bike/Bike.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scrape/bike/BikeBrand.class" afterPath="$PROJECT_DIR$/out/production/classes/scrape/bike/BikeBrand.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scrape/bike/BrandRecognition.class" afterPath="$PROJECT_DIR$/out/production/classes/scrape/bike/BrandRecognition.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scrape/bike/Main.class" afterPath="$PROJECT_DIR$/out/production/classes/scrape/bike/Main.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scrape/bike/WikipediaScrape.class" afterPath="$PROJECT_DIR$/out/production/classes/scrape/bike/WikipediaScrape.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scrape/bike/client/AutoLifeScrape.class" afterPath="$PROJECT_DIR$/out/production/classes/scrape/bike/client/AutoLifeScrape.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scrape/bike/client/NewPriceBikeScrape.class" afterPath="$PROJECT_DIR$/out/production/classes/scrape/bike/client/NewPriceBikeScrape.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scrape/bike/domain/Specification.class" afterPath="$PROJECT_DIR$/out/production/classes/scrape/bike/domain/Specification.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/classes/scrape/google/GooglePlaceApi.class" afterPath="$PROJECT_DIR$/out/production/classes/scrape/google/GooglePlaceApi.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/classes/scrape/BikeScrapeSpec.class" afterPath="$PROJECT_DIR$/out/test/classes/scrape/BikeScrapeSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/classes/scrape/bike/BikeScrapeSpec.class" afterPath="$PROJECT_DIR$/out/test/classes/scrape/bike/BikeScrapeSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/classes/scrape/bike/BrandRecognitionSpec.class" afterPath="$PROJECT_DIR$/out/test/classes/scrape/bike/BrandRecognitionSpec.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/test/classes/scrape/bike/WikipediaScrapeSpec.class" afterPath="$PROJECT_DIR$/out/test/classes/scrape/bike/WikipediaScrapeSpec.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/bin/runsolr.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/data/questions-train.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/df-counts.ser" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/currency.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/elevate.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/mapping-FoldToASCII.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/mapping-ISOLatin1Accent.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/params.json" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/protwords.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/schema.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/spellings.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/stopwords.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/synonyms.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/README.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/VM_global_library.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/answer.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/browse.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/cluster.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/cluster_results.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/css/c.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/debug.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/did_you_mean.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/error.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/facet_fields.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/facet_pivot.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/facet_queries.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/facet_ranges.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/facets.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/footer.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/head.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/header.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/hit.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/hit_grouped.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/hit_plain.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/join_doc.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/jquery.autocomplete.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/jquery.autocomplete.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/js/index.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/js/j.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/js/jquery.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/layout.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/mime_type_lists.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/pagination_bottom.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/pagination_top.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/product_doc.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/query.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/query_form.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/query_group.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/query_spatial.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/results_list.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/richtext_doc.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/suggest.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/tabs.vm" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/server/solr/prasnottar/conf/velocity/v.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/src/main/java/com/prasnottar/query/AnswerTypeClassifier.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/src/main/java/com/prasnottar/query/AnswerTypeContextGenerator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/src/main/java/com/prasnottar/query/AnswerTypeEventStream.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/src/main/java/com/prasnottar/query/ChunkParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/src/main/java/com/prasnottar/query/FocusNoun.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/src/main/java/com/prasnottar/query/Passage.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/src/main/java/com/prasnottar/query/PassageRankingComponent.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/src/main/java/com/prasnottar/query/PrasnottarParam.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/src/main/java/com/prasnottar/query/PrasnottarQParser.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/src/main/java/com/prasnottar/query/PrasnottarQParserPlugin.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/src/main/java/com/prasnottar/query/WindowBuildingTVM.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/src/main/java/com/prasnottar/query/WindowTerm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/src/main/java/com/prasnottar/solr/NameFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/src/main/java/com/prasnottar/solr/NameFilterFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/src/main/java/com/prasnottar/solr/SentenceTokenizer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/src/main/java/com/prasnottar/solr/SentenceTokenizerFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/src/main/java/com/prasnottar/solr/StanfordFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/src/main/java/com/prasnottar/solr/StanfordFilter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/src/main/java/com/prasnottar/solr/TimeData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/src/main/java/com/prasnottar/solr/TokenData.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/src/main/java/com/prasnottar/summarizer/DocumentFrequencyCounter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/src/main/java/com/prasnottar/summarizer/Summarizer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/src/main/java/com/prasnottar/util/NameFinderFactory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/src/main/java/com/prasnottar/util/OpenNLPUtil.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../prasnottar/src/main/java/com/prasnottar/util/SentenceDetectorFactory.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../customqueryresponse/src/main/java/customqueryresponse/TypeAheadResponseWriter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../deduplicaton/src/main/java/Deduplication.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/chapterone/Frankenstein.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/chapterone/HelloLucene.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/chapterone/OpenNLPModel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/common/CommonText.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/contentextraction/ContentExtraction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/contentextraction/Parser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/fuzzystring/EditDistance.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/fuzzystring/JaccardMeasure.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/fuzzystring/SpellCorrector.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/fuzzystring/TanimotoCoefficient.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/fuzzystring/prefix/TrieNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/fuzzystring/trie/Trie.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/fuzzystring/trie/TrieNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/fuzzystring/trie/optimized/Trie.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/fuzzystring/trie/optimized/TrieNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/opennlp/PooledGenericModelReader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/opennlp/PooledGenericModelSerializer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/opennlp/PooledTokenNameFinderModel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/partsofspeech/POSTagger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/sentence/detection/PlaceDetection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/sentence/detection/SentenceDetection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/sentence/parse/SentenceParse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/solr/ChemAnalyzer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/solr/ChemTokenizer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/solr/NameFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/solr/NameFilterFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/solr/SentenceTokenizer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/solr/SentenceTokenizerFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/stemmer/SnowballStemmer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/tokenization/SimpleTokenizerONLP.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/tokenization/TokenizerMEONLP.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/tokenization/WhiteSpaceTokenizerONLP.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/utils/NameFinderFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/utils/OpenNLPUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/java/utils/SentenceDetectorFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/chapterone/Frankenstein.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/chapterone/HelloLucene.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/chapterone/OpenNLPModel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/common/CommonText.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/contentextraction/ContentExtraction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/contentextraction/Parser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/fuzzystring/EditDistance.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/fuzzystring/JaccardMeasure.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/fuzzystring/SpellCorrector.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/fuzzystring/TanimotoCoefficient.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/fuzzystring/prefix/TrieNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/fuzzystring/trie/Trie.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/fuzzystring/trie/TrieNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/fuzzystring/trie/optimized/Trie.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/fuzzystring/trie/optimized/TrieNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/opennlp/PooledGenericModelReader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/opennlp/PooledGenericModelSerializer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/opennlp/PooledTokenNameFinderModel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/partsofspeech/POSTagger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/sentence/detection/PlaceDetection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/sentence/detection/SentenceDetection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/sentence/parse/SentenceParse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/solr/ChemAnalyzer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/solr/ChemTokenizer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/solr/NameFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/solr/NameFilterFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/solr/SentenceTokenizer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/solr/SentenceTokenizerFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/stemmer/SnowballStemmer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/tokenization/SimpleTokenizerONLP.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/tokenization/TokenizerMEONLP.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/tokenization/WhiteSpaceTokenizerONLP.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/utils/NameFinderFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/utils/OpenNLPUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/main/java/utils/SentenceDetectorFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/test/java/spec/SentenceDetectionSpec.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/test/java/spec/TamingTextTestJ4.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/test/java/spec/carrot2/Carrot2ExampleTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/test/java/spec/fuzzystring/EditDistanceSpec.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/test/java/spec/fuzzystring/JaccardMeasureSpec.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/test/java/spec/fuzzystring/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/test/java/spec/fuzzystring/TanimotoCoefficientSpec.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/test/java/spec/fuzzystring/trie/TrieNodeTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/test/java/spec/fuzzystring/trie/TrieSpec.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/test/java/spec/fuzzystring/trie/optimized/TrieSpec.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/test/java/spec/mahout/VectorExamplesTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/test/java/spec/parser/SentenceParserSpec.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../solrlucene/src/test/java/spec/solr/NameFilterTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/build.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/settings.gradle" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/chapterone/Frankenstein.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/chapterone/HelloLucene.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/chapterone/OpenNLPModel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/common/CommonText.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/contentextraction/ContentExtraction.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/contentextraction/Parser.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/fuzzystring/EditDistance.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/fuzzystring/JaccardMeasure.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/fuzzystring/SpellCorrector.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/fuzzystring/TanimotoCoefficient.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/fuzzystring/prefix/TrieNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/fuzzystring/trie/Trie.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/fuzzystring/trie/TrieNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/fuzzystring/trie/optimized/Trie.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/fuzzystring/trie/optimized/TrieNode.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/opennlp/PooledGenericModelReader.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/opennlp/PooledGenericModelSerializer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/opennlp/PooledTokenNameFinderModel.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/partsofspeech/POSTagger.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/sentence/detection/PlaceDetection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/sentence/detection/SentenceDetection.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/sentence/parse/SentenceParse.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/solr/ChemAnalyzer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/solr/ChemTokenizer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/solr/NameFilter.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/solr/NameFilterFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/solr/SentenceTokenizer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/solr/SentenceTokenizerFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/stemmer/SnowballStemmer.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/tokenization/SimpleTokenizerONLP.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/tokenization/TokenizerMEONLP.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/tokenization/WhiteSpaceTokenizerONLP.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/utils/NameFinderFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/utils/OpenNLPUtil.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/java/utils/SentenceDetectorFactory.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/main/resources/frankenstein-gutenberg.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/test/java/spec/SentenceDetectionSpec.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/test/java/spec/TamingTextTestJ4.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/test/java/spec/carrot2/Carrot2ExampleTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/test/java/spec/fuzzystring/EditDistanceSpec.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/test/java/spec/fuzzystring/JaccardMeasureSpec.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/test/java/spec/fuzzystring/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/test/java/spec/fuzzystring/TanimotoCoefficientSpec.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/test/java/spec/fuzzystring/trie/TrieNodeTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/test/java/spec/fuzzystring/trie/TrieSpec.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/test/java/spec/fuzzystring/trie/optimized/TrieSpec.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/test/java/spec/mahout/VectorExamplesTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/test/java/spec/parser/SentenceParserSpec.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../tamingtext/src/test/java/spec/solr/NameFilterTest.java" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../textanalysis/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../textanalysis/.idea/gradle.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../textanalysis/.idea/libraries/Gradle__com_opencsv_opencsv_4_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../textanalysis/.idea/libraries/Gradle__commons_beanutils_commons_beanutils_1_9_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../textanalysis/.idea/libraries/Gradle__commons_collections_commons_collections_3_2_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../textanalysis/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../textanalysis/.idea/libraries/Gradle__de_julielab_aliasi_lingpipe_4_1_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../textanalysis/.idea/libraries/Gradle__jakarta_regexp_jakarta_regexp_1_4.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../textanalysis/.idea/libraries/Gradle__junit_junit_4_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../textanalysis/.idea/libraries/Gradle__org_apache_commons_commons_lang3_3_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../textanalysis/.idea/libraries/Gradle__org_apache_commons_commons_text_1_1.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../textanalysis/.idea/libraries/Gradle__org_apache_lucene_lucene_analyzers_common_4_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../textanalysis/.idea/libraries/Gradle__org_apache_lucene_lucene_core_4_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../textanalysis/.idea/libraries/Gradle__org_apache_lucene_lucene_queries_4_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../textanalysis/.idea/libraries/Gradle__org_apache_lucene_lucene_queryparser_4_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../textanalysis/.idea/libraries/Gradle__org_apache_lucene_lucene_sandbox_4_0_0.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../textanalysis/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../textanalysis/.idea/libraries/Gradle__org_slf4j_slf4j_api_1_7_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../textanalysis/.idea/libraries/Gradle__org_twitter4j_twitter4j_core_4_0_6.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../textanalysis/.idea/modules/twittertextanalysis.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../textanalysis/.idea/modules/twittertextanalysis_main.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../textanalysis/.idea/modules/twittertextanalysis_test.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/compare&amp;search.iml" afterPath="$PROJECT_DIR$/.idea/modules/compare&amp;search.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/compare&amp;search_main.iml" afterPath="$PROJECT_DIR$/.idea/modules/compare&amp;search_main.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/compare&amp;search_test.iml" afterPath="$PROJECT_DIR$/.idea/modules/compare&amp;search_test.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build.gradle" afterPath="$PROJECT_DIR$/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/scrape/bike/Bike.java" afterPath="$PROJECT_DIR$/src/main/java/scrape/bike/Bike.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/scrape/bike/BrandRecognition.java" afterPath="$PROJECT_DIR$/src/main/java/scrape/bike/BrandRecognition.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/scrape/bike/Main.java" afterPath="$PROJECT_DIR$/src/main/java/scrape/bike/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/scrape/bike/WikipediaScrape.java" afterPath="$PROJECT_DIR$/src/main/java/scrape/bike/WikipediaScrape.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/scrape/bike/client/AutoLifeScrape.java" afterPath="$PROJECT_DIR$/src/main/java/scrape/bike/client/AutoLifeScrape.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/scrape/bike/client/NewPriceBikeScrape.java" afterPath="$PROJECT_DIR$/src/main/java/scrape/bike/client/NewPriceBikeScrape.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/scrape/google/GooglePlaceApi.java" afterPath="$PROJECT_DIR$/src/main/java/scrape/google/GooglePlaceApi.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cs-persistence/build.gradle" afterPath="$PROJECT_DIR$/../cs-persistence/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cs-persistence/src/main/java/cspersistence/CsPersistenceApplication.java" afterPath="$PROJECT_DIR$/../cs-persistence/src/main/java/cspersistence/CsPersistenceApplication.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../cs-persistence/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../cs-persistence/src/main/resources/application.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../elasticsearch/build.gradle" afterPath="$PROJECT_DIR$/../../elasticsearch/build.gradle" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cqw/cqw.iml" afterPath="$PROJECT_DIR$/../../cqw/cqw.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cqw/pom.xml" afterPath="$PROJECT_DIR$/../../cqw/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../cqw/src/main/java/cqw/TypeAheadResponseWriter.java" afterPath="$PROJECT_DIR$/../../cqw/src/main/java/cqw/TypeAheadResponseWriter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../fuzzystringmatch/src/main/java/fsm/JaccardMeasure.java" afterPath="$PROJECT_DIR$/../../fuzzystringmatch/src/main/java/fsm/JaccardMeasure.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../fuzzystringmatch/src/main/java/fsm/TanimotoCoefficient.java" afterPath="$PROJECT_DIR$/../../fuzzystringmatch/src/main/java/fsm/TanimotoCoefficient.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../fuzzystringmatch/src/test/java/fsm/JaccardMeasureSpec.java" afterPath="$PROJECT_DIR$/../../fuzzystringmatch/src/test/java/fsm/JaccardMeasureSpec.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../fuzzystringmatch/src/test/java/fsm/README.md" afterPath="$PROJECT_DIR$/../../fuzzystringmatch/src/test/java/fsm/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../fuzzystringmatch/src/test/java/fsm/TanimotoCoefficientSpec.java" afterPath="$PROJECT_DIR$/../../fuzzystringmatch/src/test/java/fsm/TanimotoCoefficientSpec.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../mallet/res/bibek.txt" afterPath="$PROJECT_DIR$/../../mallet/res/bibek.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../mallet/src/main/java/topic/TopicModel.java" afterPath="$PROJECT_DIR$/../../mallet/src/main/java/topic/TopicModel.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../nlpanalysis/nlpanalysis.iml" afterPath="$PROJECT_DIR$/../../nlpanalysis/nlpanalysis.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../nlpanalysis/pom.xml" afterPath="$PROJECT_DIR$/../../nlpanalysis/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/main/resources/frankenstein-gutenberg.txt" afterPath="$PROJECT_DIR$/../../nlpanalysis/src/main/resources/frankenstein-gutenberg.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/test/java/spec/SentenceDetectionSpec.java" afterPath="$PROJECT_DIR$/../../nlpanalysis/src/test/java/spec/SentenceDetectionSpec.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/test/java/spec/fuzzystring/EditDistanceSpec.java" afterPath="$PROJECT_DIR$/../../nlpanalysis/src/test/java/spec/fuzzystring/EditDistanceSpec.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/test/java/spec/fuzzystring/JaccardMeasureSpec.java" afterPath="$PROJECT_DIR$/../../nlpanalysis/src/test/java/spec/fuzzystring/JaccardMeasureSpec.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/test/java/spec/fuzzystring/trie/TrieNodeTest.java" afterPath="$PROJECT_DIR$/../../nlpanalysis/src/test/java/spec/fuzzystring/trie/TrieNodeTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/test/java/spec/fuzzystring/trie/TrieSpec.java" afterPath="$PROJECT_DIR$/../../nlpanalysis/src/test/java/spec/fuzzystring/trie/TrieSpec.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/test/java/spec/fuzzystring/trie/optimized/TrieSpec.java" afterPath="$PROJECT_DIR$/../../nlpanalysis/src/test/java/spec/fuzzystring/trie/optimized/TrieSpec.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/test/java/spec/parser/SentenceParserSpec.java" afterPath="$PROJECT_DIR$/../../nlpanalysis/src/test/java/spec/parser/SentenceParserSpec.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../nlpanalysis/src/test/java/spec/solr/NameFilterTest.java" afterPath="$PROJECT_DIR$/../../nlpanalysis/src/test/java/spec/solr/NameFilterTest.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../prasnottar/pom.xml" afterPath="$PROJECT_DIR$/../../prasnottar/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../textanalysis/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../../textanalysis/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../textanalysis/.idea/misc.xml" afterPath="$PROJECT_DIR$/../../textanalysis/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../textanalysis/.idea/modules.xml" afterPath="$PROJECT_DIR$/../../textanalysis/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../textanalysis/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../textanalysis/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
@@ -200,25 +323,7 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="compare&amp;search" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="compare&amp;search" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="compare&amp;search" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="build setup" type="c8890929:TasksNode$1" />
-              </path>
-              <path>
-                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
-                <item name="compare&amp;search" type="f1a62948:ProjectNode" />
-                <item name="Tasks" type="e4a08cd1:TasksNode" />
-                <item name="distribution" type="c8890929:TasksNode$1" />
+                <item name="Run Configurations" type="7b0102dc:RunConfigurationsNode" />
               </path>
             </expand>
             <select />
@@ -229,11 +334,97 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="GooglePlaceApi.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="GooglePlaceApi.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/scrape/google/GooglePlaceApi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+            <state relative-caret-position="272">
+              <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="59" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CustomSearchClient.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/scrape/google/customsearch/api/CustomSearchClient.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GoogleCustomSearchApi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/scrape/google/GoogleCustomSearchApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RetrofitUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/util/RetrofitUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="34">
+              <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="build.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/build.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="40" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ClientPreprocessing.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/preprocess/client/ClientPreprocessing.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="15" column="5" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="brand_name.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/brand_name.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="resource.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/resource.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="54" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="54" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="settings.gradle" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/settings.gradle">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -486,7 +677,7 @@
     </option>
     <option name="modificationStamps">
       <map>
-        <entry key="$PROJECT_DIR$" value="4535723174000" />
+        <entry key="$PROJECT_DIR$" value="4535723172000" />
         <entry key="$PROJECT_DIR$/build.gradle" value="1022172504" />
         <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="615277776" />
       </map>
@@ -510,142 +701,142 @@
               <option name="name" value="compare&amp;search" />
               <option name="projectBuildClasspath">
                 <list>
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/platform-base" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/installation-beacon" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/internal-android-performance-testing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/jacoco" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/test-kit" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/open-api" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/internal-integ-testing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/resources-http" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/language-scala" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/platform-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/testing-jvm" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/resources-s3" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/testing-base" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/language-jvm" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/plugin-development" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/core" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/launcher" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/ivy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/build-cache-http" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/ide-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/logging" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/ear" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/ui" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/tooling-api-builders" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/platform-play" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/osgi" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/maven" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/plugin-use" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/ide-play" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/internal-performance-testing" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/resources-sftp" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/process-services" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/signing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/javascript" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/internal-testing" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/code-quality" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/build-comparison" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/dependency-management" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/workers" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/publish" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/language-java" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/wrapper" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/plugins" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/jvm-services" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/scala" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/build-init" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/base-services-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/launcher" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/language-scala" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/antlr" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/composite-builds" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/testing-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/jetty" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/language-groovy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/reporting" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/ide" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/tooling-api" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/cli" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/diagnostics" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/resources" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/model-groovy" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/base-services" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/language-native" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/announce" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/model-core" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/messaging" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/dependency-management" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/platform-jvm" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-runtime-api-info-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-launcher-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/internal-integ-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/plugins" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/testing-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/platform-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/ide" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/tooling-api-builders" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/model-core" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/ide-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/scala" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/installation-beacon" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/logging" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/testing-jvm" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/platform-base" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/tooling-api" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/resources-s3" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/platform-play" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/plugin-development" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/reporting" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/signing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/antlr" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/base-services" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/build-init" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/ide-play" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/osgi" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/base-services-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/build-comparison" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/build-cache-http" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/internal-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/test-kit" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/ui" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/internal-performance-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/ear" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/language-jvm" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/open-api" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/language-java" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/process-services" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/diagnostics" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/messaging" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/publish" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/javascript" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/plugin-use" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/language-native" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/cli" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/code-quality" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/internal-android-performance-testing" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/composite-builds" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/announce" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/resources" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/jvm-services" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/wrapper" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/language-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/jacoco" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/core" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/jetty" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/resources-http" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/testing-base" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/workers" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/ivy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/model-groovy" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/src/maven" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-open-api-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-launcher-3.5.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-jvm-services-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-tooling-api-3.5.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-base-services-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-process-services-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-installation-beacon-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-cli-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-script-kotlin-0.8.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-model-core-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/groovy-all-2.4.10.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-base-services-groovy-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-messaging-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/ant-1.9.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-model-groovy-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-core-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-resources-3.5.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-ui-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-wrapper-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-version-info-3.5.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-logging-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-docs-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-native-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-process-services-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-base-services-groovy-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-tooling-api-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-messaging-3.5.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/ant-launcher-1.9.6.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-ivy-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-language-jvm-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-osgi-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-language-java-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-platform-native-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-ide-native-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-maven-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-diagnostics-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-resources-s3-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-announce-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-antlr-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-resources-sftp-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-reporting-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-code-quality-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-build-comparison-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-ear-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-platform-play-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-test-kit-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-workers-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-testing-base-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-resources-http-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-dependency-management-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-javascript-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-plugin-use-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-language-scala-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-platform-base-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-core-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-model-core-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-cli-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-resources-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-version-info-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/ant-1.9.6.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-script-kotlin-0.8.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-runtime-api-info-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-docs-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-installation-beacon-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-model-groovy-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-wrapper-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/gradle-native-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/groovy-all-2.4.10.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-build-cache-http-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-tooling-api-builders-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-scala-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-jetty-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-language-groovy-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-ide-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-plugins-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-composite-builds-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-jacoco-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-language-native-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/ivy-2.2.0.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-testing-native-3.5.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-plugin-development-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-build-init-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-platform-jvm-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-publish-3.5.jar" />
-                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-signing-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-ivy-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-scala-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-ide-native-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-reporting-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-language-native-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-composite-builds-3.5.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-ide-play-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-language-groovy-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-workers-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-signing-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-test-kit-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-language-jvm-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-dependency-management-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-plugin-use-3.5.jar" />
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-testing-jvm-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-jetty-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-language-java-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-resources-http-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-announce-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-maven-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-platform-native-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-diagnostics-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-platform-base-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-build-init-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-build-comparison-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-resources-sftp-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-publish-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/ivy-2.2.0.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-ear-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-platform-jvm-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-platform-play-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-code-quality-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-jacoco-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-tooling-api-builders-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-osgi-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-resources-s3-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-plugins-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-javascript-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-testing-base-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-language-scala-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-testing-native-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-ide-3.5.jar" />
+                  <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-all/c0k4lbl8pjtnoeqme5ekch4re/gradle-3.5-rc-2/lib/plugins/gradle-antlr-3.5.jar" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/java" />
                   <option value="$PROJECT_DIR$/buildSrc/src/main/groovy" />
                 </list>
@@ -731,10 +922,10 @@
   <component name="PhpDebugGeneral" listening_started="true" />
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1312" />
-    <option name="y" value="252" />
-    <option name="width" value="1334" />
-    <option name="height" value="772" />
+    <option name="x" value="1325" />
+    <option name="y" value="-2" />
+    <option name="width" value="1875" />
+    <option name="height" value="1082" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -754,10 +945,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -789,7 +976,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="scrape" type="462c0819:PsiDirectoryNode" />
+              <item name="preprocess" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="compare&amp;search" type="b2602c69:ProjectViewProjectNode" />
@@ -797,8 +984,8 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="scrape" type="462c0819:PsiDirectoryNode" />
-              <item name="bike" type="462c0819:PsiDirectoryNode" />
+              <item name="preprocess" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="compare&amp;search" type="b2602c69:ProjectViewProjectNode" />
@@ -806,38 +993,9 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="scrape" type="462c0819:PsiDirectoryNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="compare&amp;search" type="b2602c69:ProjectViewProjectNode" />
-              <item name="compare&amp;search" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="scrape" type="462c0819:PsiDirectoryNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
-              <item name="customsearch" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="compare&amp;search" type="b2602c69:ProjectViewProjectNode" />
-              <item name="compare&amp;search" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="scrape" type="462c0819:PsiDirectoryNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
-              <item name="customsearch" type="462c0819:PsiDirectoryNode" />
-              <item name="api" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="compare&amp;search" type="b2602c69:ProjectViewProjectNode" />
-              <item name="compare&amp;search" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="scrape" type="462c0819:PsiDirectoryNode" />
-              <item name="request" type="462c0819:PsiDirectoryNode" />
+              <item name="preprocess" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
+              <item name="ClientPreprocessing.java" type="529ef68f:ClassesTreeStructureProvider$PsiClassOwnerTreeNode" />
             </path>
             <path>
               <item name="compare&amp;search" type="b2602c69:ProjectViewProjectNode" />
@@ -856,65 +1014,16 @@
             </path>
             <path>
               <item name="compare&amp;search" type="b2602c69:ProjectViewProjectNode" />
-              <item name="compare&amp;search" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-            </path>
-            <path>
-              <item name="compare&amp;search" type="b2602c69:ProjectViewProjectNode" />
-              <item name="compare&amp;search" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="compare&amp;search" type="b2602c69:ProjectViewProjectNode" />
-              <item name="compare&amp;search" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="preprocess" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="compare&amp;search" type="b2602c69:ProjectViewProjectNode" />
-              <item name="compare&amp;search" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="scrape" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="compare&amp;search" type="b2602c69:ProjectViewProjectNode" />
-              <item name="compare&amp;search" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="scrape" type="462c0819:PsiDirectoryNode" />
-              <item name="bike" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="compare&amp;search" type="b2602c69:ProjectViewProjectNode" />
-              <item name="compare&amp;search" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="scrape" type="462c0819:PsiDirectoryNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="compare&amp;search" type="b2602c69:ProjectViewProjectNode" />
-              <item name="compare&amp;search" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="scrape" type="462c0819:PsiDirectoryNode" />
-              <item name="google" type="462c0819:PsiDirectoryNode" />
-              <item name="Nearby" type="462c0819:PsiDirectoryNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1207,6 +1316,10 @@
       <workItem from="1514733543954" duration="4186000" />
       <workItem from="1514778347160" duration="5234000" />
       <workItem from="1514814388032" duration="744000" />
+      <workItem from="1518769160911" duration="1866000" />
+      <workItem from="1518786541149" duration="758000" />
+      <workItem from="1531750011527" duration="2261000" />
+      <workItem from="1531756417513" duration="59000" />
     </task>
     <servers />
   </component>
@@ -1243,7 +1356,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="217799000" />
+    <option name="totallyTimeSpent" value="222743000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1255,7 +1368,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1312" y="252" width="1334" height="772" extended-state="6" />
+    <frame x="1325" y="-2" width="1875" height="1082" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -1265,23 +1378,27 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5123077" sideWeight="0.47755417" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975206" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36633664" sideWeight="0.5224458" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="REPL" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3523077" sideWeight="0.49690402" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.36633664" sideWeight="0.5224458" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25464398" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26626572" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975206" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3289256" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="SonarQube" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32859486" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39384615" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39384615" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Leiningen" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24958678" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.18769231" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1355,13 +1472,7 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.9.2/f70cf13f13ecd9b42801fc361ba65950adf956f3/jackson-annotations-2.9.2-sources.jar!/com/fasterxml/jackson/annotation/JsonPropertyOrder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="35" column="18" lean-forward="false" selection-start-line="35" selection-start-column="18" selection-end-line="35" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.fasterxml.jackson.core/jackson-annotations/2.9.2/f70cf13f13ecd9b42801fc361ba65950adf956f3/jackson-annotations-2.9.2-sources.jar!/com/fasterxml/jackson/annotation/JsonPropertyOrder.java" />
     <entry file="file://$PROJECT_DIR$/src/main/java/preprocess/ChasisBrakeSuspensions.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="238">
@@ -1453,13 +1564,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/preprocess/client/ClientPreProcessing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/preprocess/client/ClientPreProcessing.java" />
     <entry file="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/commons-io/commons-io/2.6/2566800dc841d9d2c5a0d34d807e45d4107dbbdf/commons-io-2.6-sources.jar!/org/apache/commons/io/FileUtils.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
@@ -1517,13 +1622,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/preprocess/client/ClientPreprocessing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="13" column="22" lean-forward="false" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/preprocess/client/ClientPreprocessingFactory.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1539,32 +1637,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/wiki.json" />
-    <entry file="file://$PROJECT_DIR$/src/main/resources/brand_name.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/resource.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/scrape/bike/Main.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/settings.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -1572,7 +1648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="10" column="6" lean-forward="false" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1580,7 +1655,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="21" column="6" lean-forward="false" selection-start-line="21" selection-start-column="6" selection-end-line="21" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1588,7 +1662,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="10" column="13" lean-forward="false" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1596,7 +1669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1604,7 +1676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="9" column="13" lean-forward="false" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1612,7 +1683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="51">
           <caret line="3" column="13" lean-forward="false" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1620,7 +1690,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1628,9 +1697,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="493">
           <caret line="48" column="54" lean-forward="false" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
-          <folding>
-            <element signature="e#1035#1036#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1638,7 +1704,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1646,15 +1711,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="28" column="48" lean-forward="false" selection-start-line="28" selection-start-column="48" selection-end-line="28" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="19" column="37" lean-forward="false" selection-start-line="18" selection-start-column="3" selection-end-line="22" selection-end-column="75" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1662,7 +1718,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1670,7 +1725,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-874">
           <caret line="19" column="13" lean-forward="false" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1678,7 +1732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
           <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1690,10 +1743,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/util/RetrofitUtils.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/scrape/google/Nearby/api/NearbyClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="32">
-          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="53" />
+        <state relative-caret-position="68">
+          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/scrape/google/GooglePlaceApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="29" column="12" lean-forward="false" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="59" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1702,9 +1762,11 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/scrape/google/customsearch/api/CustomSearchClient.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="19" column="25" lean-forward="false" selection-start-line="19" selection-start-column="17" selection-end-line="19" selection-end-column="32" />
-          <folding />
+        <state relative-caret-position="136">
+          <caret line="14" column="17" lean-forward="false" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1716,18 +1778,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scrape/google/Nearby/api/NearbyClient.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/util/RetrofitUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="10" column="17" lean-forward="false" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        <state relative-caret-position="34">
+          <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="6" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="20" selection-end-line="22" selection-end-column="40" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/scrape/google/GooglePlaceApi.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/preprocess/client/ClientPreprocessing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="27" column="19" lean-forward="true" selection-start-line="27" selection-start-column="19" selection-end-line="27" selection-end-column="19" />
+        <state relative-caret-position="255">
+          <caret line="15" column="5" lean-forward="false" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/brand_name.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="14" lean-forward="false" selection-start-line="1" selection-start-column="14" selection-end-line="1" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/settings.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/resource.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="54" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="54" />
           <folding />
         </state>
       </provider>

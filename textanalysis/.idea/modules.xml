@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/twittertextanalysis.iml" filepath="$PROJECT_DIR$/.idea/modules/twittertextanalysis.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/twittertextanalysis_main.iml" filepath="$PROJECT_DIR$/.idea/modules/twittertextanalysis_main.iml" group="twittertextanalysis" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/twittertextanalysis_test.iml" filepath="$PROJECT_DIR$/.idea/modules/twittertextanalysis_test.iml" group="twittertextanalysis" />
+      <module fileurl="file://$PROJECT_DIR$/textanalysis.iml" filepath="$PROJECT_DIR$/textanalysis.iml" />
     </modules>
   </component>
 </project>

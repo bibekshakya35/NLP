@@ -1,6 +1,6 @@
 package spec.fuzzystring.trie.optimized;
 
-import fuzzystring.trie.optimized.Trie;
+import nlp.fuzzystring.trie.optimized.Trie;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;

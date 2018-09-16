@@ -14,8 +14,6 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
-
-
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -70,7 +68,7 @@
         <dependency>
             <groupId>org.apache.solr</groupId>
             <artifactId>solr-analysis-extras</artifactId>
-            <version>6.3.0</version>
+            <version>7.3.0</version>
         </dependency>
         <dependency>
             <groupId>org.apache.solr</groupId>
@@ -88,7 +86,7 @@
         <dependency>
             <groupId>org.apache.lucene</groupId>
             <artifactId>lucene-core</artifactId>
-            <version>6.2.0</version>
+            <version>7.3.0</version>
         </dependency>
         <!-- https://mvnrepository.com/artifact/org.apache.lucene/lucene-benchmark -->
         <!--  for indexing wikipedia -->
@@ -96,7 +94,7 @@
         <dependency>
             <groupId>org.apache.lucene</groupId>
             <artifactId>lucene-benchmark</artifactId>
-            <version>6.3.0</version>
+            <version>7.3.0</version>
         </dependency>
 
 
@@ -104,7 +102,7 @@
         <dependency>
             <groupId>org.apache.solr</groupId>
             <artifactId>solr-core</artifactId>
-            <version>6.3.0</version>
+            <version>7.3.0</version>
         </dependency>
 
         <!-- https://mvnrepository.com/artifact/edu.stanford.nlp/stanford-corenlp -->
@@ -121,6 +119,63 @@
             <scope>provided</scope>
         </dependency>
 
+        <!-- https://mvnrepository.com/artifact/edu.stanford.nlp/stanford-corenlp -->
+        <dependency>
+            <groupId>edu.stanford.nlp</groupId>
+            <artifactId>stanford-corenlp</artifactId>
+            <version>3.9.1</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/dist/stanford-corenlp/stanford-corenlp-3.9.1.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>edu.stanford.nlp</groupId>
+            <artifactId>stanford-corenlp-model</artifactId>
+            <version>3.9.1</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/dist/stanford-corenlp/stanford-corenlp-3.9.1-models.jar</systemPath>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/de.jollyday/jollyday -->
+        <dependency>
+            <groupId>de.jollyday</groupId>
+            <artifactId>jollyday</artifactId>
+            <version>0.4.9</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/dist/stanford-corenlp/jollyday-0.4.9-sources.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>de.jollyday</groupId>
+            <artifactId>jollyday</artifactId>
+            <version>0.4.9</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/dist/stanford-corenlp/jollyday.jar</systemPath>
+        </dependency>
+        <dependency>
+            <groupId>org.ejml</groupId>
+            <artifactId>ejml</artifactId>
+            <version>0.23</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/dist/stanford-corenlp/ejml-0.23.jar</systemPath>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/javax.json/javax.json-api -->
+        <dependency>
+            <groupId>javax.json</groupId>
+            <artifactId>javax.json-api</artifactId>
+            <version>1.0</version>
+            <scope>system</scope>
+            <systemPath>${project.basedir}/dist/stanford-corenlp/javax.json-api-1.0-sources.jar</systemPath>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.glassfish/javax.json -->
+        <dependency>
+            <groupId>org.glassfish</groupId>
+            <artifactId>javax.json</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.io7m.xom/xom -->
+        <dependency>
+            <groupId>com.io7m.xom</groupId>
+            <artifactId>xom</artifactId>
+            <version>1.2.10</version>
+        </dependency>
     </dependencies>
     <build>
         <finalName>prasnottar</finalName>

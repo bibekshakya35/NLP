@@ -1,6 +1,6 @@
 package spec.fuzzystring.trie;
 
-import fuzzystring.trie.Trie;
+import nlp.fuzzystring.trie.Trie;
 import org.junit.After;
 import org.junit.Assert;
 import org.junit.Before;
