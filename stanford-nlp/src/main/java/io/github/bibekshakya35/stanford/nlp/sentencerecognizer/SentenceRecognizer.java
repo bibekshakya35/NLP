@@ -1,8 +1,8 @@
-package io.github.bibekshakya35.standford.nlp.sentencerecognizer;
+package io.github.bibekshakya35.stanford.nlp.sentencerecognizer;
 
 import edu.stanford.nlp.pipeline.CoreDocument;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
-import io.github.bibekshakya35.standford.nlp.Pipeline;
+import io.github.bibekshakya35.stanford.nlp.Pipeline;
 
 public class SentenceRecognizer {
     public static void main(String[] args){

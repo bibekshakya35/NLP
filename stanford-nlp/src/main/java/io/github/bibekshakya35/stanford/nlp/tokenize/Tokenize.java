@@ -1,8 +1,8 @@
-package io.github.bibekshakya35.standford.nlp.tokenize;
+package io.github.bibekshakya35.stanford.nlp.tokenize;
 
 import edu.stanford.nlp.pipeline.CoreDocument;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
-import io.github.bibekshakya35.standford.nlp.Pipeline;
+import io.github.bibekshakya35.stanford.nlp.Pipeline;
 
 public class Tokenize {
     public static void main(String[] args){

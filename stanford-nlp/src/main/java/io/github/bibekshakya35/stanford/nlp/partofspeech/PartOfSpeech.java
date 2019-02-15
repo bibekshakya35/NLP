@@ -1,9 +1,9 @@
-package io.github.bibekshakya35.standford.nlp.partofspeech;
+package io.github.bibekshakya35.stanford.nlp.partofspeech;
 
 import edu.stanford.nlp.ling.CoreAnnotations;
 import edu.stanford.nlp.pipeline.CoreDocument;
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
-import io.github.bibekshakya35.standford.nlp.Pipeline;
+import io.github.bibekshakya35.stanford.nlp.Pipeline;
 
 public class PartOfSpeech {
     public static void main(String[] args) {

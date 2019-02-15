@@ -1,4 +1,4 @@
-package io.github.bibekshakya35.standford.nlp;
+package io.github.bibekshakya35.stanford.nlp;
 
 import edu.stanford.nlp.pipeline.StanfordCoreNLP;
 
